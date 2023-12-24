@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Christmas Card for [Her Name]</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Merry Christmas, [Her Name]!</h1>
+      <p>
+        You're the best thing that ever happened to me. Here's to many more
+        memories together!
+      </p>
+      <button onclick="showMessage()">Click me!</button>
+      <div id="hiddenMessage" class="hidden">
+        <p>
+          I love you more than words can express. You mean everything to me!
+        </p>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="slika1.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika3.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika4.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika5.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika6.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika8.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="slika9.jpg" style="width: 100%" />
+      </div>
+      <!-- Add more images as needed -->
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
