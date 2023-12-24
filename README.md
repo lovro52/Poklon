@@ -1,3 +1,3 @@
 # Poklon
 poklon za bozic
-adresa stranice je : https://github.com/lovro52
+adresa stranice je : https://lovro52.github.io
